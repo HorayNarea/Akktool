@@ -1,3 +1,4 @@
+# coding: UTF-8
 from django.db import models
 
 class Member(models.Model):
@@ -11,6 +12,7 @@ class Member(models.Model):
     zipcode = models.PositiveIntegerField('PLZ')
     organisation = models.CharField('LV', max_length=100)
     haspayed = models.BooleanField('hat bezahlt?')
-    debt = models.DecimalField('Offen', max_digits=2000, decimal_places=2, blank=True, null=True)
+    debt = models.DecimalField('Offene Beiträge', max_digits=6, decimal_places=2, blank=True, null=True)
+    akk = models.BooleanField('ist akkreditiert?')
     def __unicode__(self):
         return str(self.MemberID) + " " + self.firstname + " " + self.middlename + " " + self.lastname
