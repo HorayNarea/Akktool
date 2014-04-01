@@ -15,4 +15,4 @@ class Member(models.Model):
     debt = models.DecimalField('Offene Beiträge', max_digits=6, decimal_places=2, blank=True, null=True)
     akk = models.BooleanField('ist akkreditiert?')
     def __unicode__(self):
-        return str(self.MemberID) + " " + self.firstname + " " + self.middlename + " " + self.lastname
+        return str(self.MemberID) + ' ' + self.firstname + ' ' + self.middlename + ' ' + self.lastname
