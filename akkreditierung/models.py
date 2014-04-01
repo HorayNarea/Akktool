@@ -4,7 +4,7 @@ from django.db import models
 class Member(models.Model):
     firstname = models.CharField('Vorname', max_length=100)
     lastname = models.CharField('Nachname', max_length=100)
-    middlename = models.CharField('zusätzliche Vornamen', max_length=500)
+    middlename = models.CharField('zusätzliche Vornamen', max_length=500, blank=True)
     MemberID = models.PositiveIntegerField(primary_key=True)
     birthdate = models.DateField('Geburtsdatum')
     address = models.CharField('Anschrift', max_length=500)
@@ -12,3 +12,5 @@ class Member(models.Model):
     zipcode = models.PositiveIntegerField('PLZ')
     organisation = models.CharField('LV', max_length=100)
     haspayed = models.BooleanField('hat bezahlt?')
+    def __unicode__(self):
+        return str(self.MemberID) + " " + self.firstname + " " + self.middlename + " " + self.lastname
