@@ -20,5 +20,5 @@ else:
         connection.commit()
         print 'Imported ' + str(linecounter) + ' datasets!'
 
-# csv-struktur
-#MemberID, firstname, middlename, lastname, birthdate, address, city, zipcode, organisation, haspayed, debt, akk
+# csv-structure
+#MemberID,firstname,middlename,lastname,birthdate,address,city,zipcode,organisation,haspayed,debt,akk
