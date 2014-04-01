@@ -21,4 +21,4 @@ else:
         print 'Imported ' + str(linecounter) + ' datasets!'
 
 # csv-structure
-#MemberID,firstname,middlename,lastname,birthdate,address,city,zipcode,organisation,haspayed,debt,akk
+#MemberID,firstname,middlename,lastname,birthdate,address,city,zipcode,organisation,haspaid,debt,akk

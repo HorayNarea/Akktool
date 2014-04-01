@@ -10,4 +10,4 @@ with open(inputfile, 'rb') as f:
         print ','.join(dataset)
 
 # csv-struktur
-#MemberID, firstname, middlename, lastname, birthdate, address, city, zipcode, organisation, haspayed, debt, akk
+#MemberID, firstname, middlename, lastname, birthdate, address, city, zipcode, organisation, haspaid, debt, akk

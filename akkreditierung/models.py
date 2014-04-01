@@ -11,7 +11,7 @@ class Member(models.Model):
     city = models.CharField('Ort', max_length=100)
     zipcode = models.PositiveIntegerField('PLZ')
     organisation = models.CharField('LV', max_length=100)
-    haspayed = models.BooleanField('hat bezahlt?')
+    haspaid = models.BooleanField('hat bezahlt?')
     debt = models.DecimalField('Offene Beiträge', max_digits=6, decimal_places=2, blank=True, null=True)
     akk = models.BooleanField('ist akkreditiert?')
     def __unicode__(self):
