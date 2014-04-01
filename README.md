@@ -1,3 +1,9 @@
+## Screenshots  
+![List](https://raw.githubusercontent.com/HorayNarea/Akktool/stuff/list.png "List")  
+  
+![Dataset](https://raw.githubusercontent.com/HorayNarea/Akktool/stuff/dataset.png "Dataset")  
+  
+  
 ## Setup  
   
 get the code:  
@@ -45,6 +51,10 @@ now open [http://localhost:8000/](http://localhost:8000/) in your browser
   
 to stop:  
 Ctrl+C (if you're running inside a virtual environment: `deactivate`) and you're done \o/  
+  
+  
+sampledata csv to downlad/import:  
+[https://raw.githubusercontent.com/HorayNarea/Akktool/stuff/sampledata.csv](https://raw.githubusercontent.com/HorayNarea/Akktool/stuff/sampledata.csv)
   
   
 ## License  
