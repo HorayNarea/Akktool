@@ -17,3 +17,7 @@ cd Akktool
 
 
 open http://localhost:8000/ in your browser  
+
+
+## License
+see LICENSE-File
