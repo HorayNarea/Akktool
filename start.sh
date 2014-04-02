@@ -7,4 +7,4 @@ if [ "$1" != "" ]
     python import.py $1
 fi
 python manage.py syncdb
-python manage.py runserver
+python manage.py runserver 0.0.0.0:8000

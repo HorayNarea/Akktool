@@ -10,7 +10,7 @@ class Member(models.Model):
     address = models.CharField('Anschrift', max_length=500)
     city = models.CharField('Ort', max_length=100)
     zipcode = models.PositiveIntegerField('PLZ')
-    organisation = models.CharField('LV', max_length=100)
+    organisation = models.CharField('Gliederung', max_length=100, blank=True, null=True)
     haspaid = models.BooleanField('hat bezahlt?')
     debt = models.DecimalField('Offene Beiträge', max_digits=6, decimal_places=2, blank=True, null=True)
     akk = models.BooleanField('ist akkreditiert?')
