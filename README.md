@@ -3,6 +3,8 @@
   
 ![Dataset](https://raw.githubusercontent.com/HorayNarea/Akktool/stuff/dataset.png "Dataset")  
   
+![Quorum](https://raw.githubusercontent.com/HorayNarea/Akktool/stuff/quorum.png "Quorum")  
+  
   
 ## Setup  
   
