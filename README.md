@@ -20,20 +20,13 @@ unzip master.zip
 cd Akktool-master
 ```  
   
-optional, use a virtual environment:  
-```sh
-sudo apt-get install python-virtualenv
-virtualenv .venv
-source .venv/bin/activate
-```  
-  
 to install and run, just:  
 `./start.sh`  
 or  
 `./start.sh /path/to/csvfile`  
 if you also want to import some members from /path/to/csvfile
 
-this will do the following:  
+this will setup a virtual environment (if you have virtualenv installed) and do the following:  
 ```sh
 pip install -r requirements.txt
 if [ "$1" != "" ]
@@ -50,13 +43,13 @@ now open [http://localhost:8000/](http://localhost:8000/) in your browser
   
   
 to stop:  
-Ctrl+C (if you're running inside a virtual environment: `deactivate`) and you're done \o/  
+Ctrl+C and you're done \o/  
 
 sampledata csv to downlad/import:  
 [https://raw.githubusercontent.com/HorayNarea/Akktool/stuff/sampledata.csv](https://raw.githubusercontent.com/HorayNarea/Akktool/stuff/sampledata.csv)  
   
   
-#### HERE BE DRAGONS
+__HERE BE DRAGONS__  
 to remove everything you did (you will loose ALL the imported data!):  
 `./cleanup.sh`  
   

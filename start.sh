@@ -1,4 +1,13 @@
-#!/bin/sh
+#!/bin/bash
+
+if [ `which virtualenv` != "" ]
+  then
+    if [ ! -d ".venv" ]
+      then
+        virtualenv .venv
+    fi
+    source .venv/bin/activate
+fi
 
 pip install -r requirements.txt
 if [ "$1" != "" ]
