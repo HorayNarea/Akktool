@@ -51,10 +51,15 @@ now open [http://localhost:8000/](http://localhost:8000/) in your browser
   
 to stop:  
 Ctrl+C (if you're running inside a virtual environment: `deactivate`) and you're done \o/  
-  
-  
+
 sampledata csv to downlad/import:  
-[https://raw.githubusercontent.com/HorayNarea/Akktool/stuff/sampledata.csv](https://raw.githubusercontent.com/HorayNarea/Akktool/stuff/sampledata.csv)
+[https://raw.githubusercontent.com/HorayNarea/Akktool/stuff/sampledata.csv](https://raw.githubusercontent.com/HorayNarea/Akktool/stuff/sampledata.csv)  
+  
+  
+#### HERE BE DRAGONS
+to remove everything you did (you will loose ALL the imported data!):  
+`./cleanup.sh`  
+  
   
   
 ## License  
