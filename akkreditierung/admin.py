@@ -8,5 +8,6 @@ class MemberAdmin(admin.ModelAdmin):
     list_editable = ('haspaid', 'debt', 'akk')
     list_filter = ['akk', 'haspaid']
     list_per_page = 20
+    ordering = ['MemberID']
 
 admin.site.register(Member, MemberAdmin)
