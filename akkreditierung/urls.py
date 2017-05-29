@@ -1,6 +1,6 @@
-from django.conf.urls import patterns, url
+from django.conf.urls import url
 from akkreditierung import views
 
-urlpatterns = patterns('',
+urlpatterns = [
     url(r'^$', views.quorum, name='quorum'),
-)
+]
